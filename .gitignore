@@ -15,13 +15,15 @@ adapters/*/
 !adapters/.gitkeep
 data/split/
 data/CUSTOM_DATASET.md
-results/*.json
-results/*.csv
+# results/*.json
+# results/*.csv
 !results/.gitkeep
+*.zip
 gguf/
 *.gguf
 runs/
 wandb/
+
 
 # Model / HF cache
 .cache/
